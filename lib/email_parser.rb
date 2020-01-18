@@ -7,7 +7,7 @@ class EmailAddressParser
   # Creating an instance variable reader/writer
   attr_accessor :emails
   
-  # Upon initialization, store string in instance variable emails
+  # Upon initialization, store string in instance variable @emails
   def initialize(emails)
     self.emails = emails
   end 
